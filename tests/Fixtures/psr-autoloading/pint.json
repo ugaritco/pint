@@ -1,0 +1,6 @@
+{
+    "preset": "ugarit",
+    "rules": {
+        "psr_autoloading": true
+    }
+}

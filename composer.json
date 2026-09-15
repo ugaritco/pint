@@ -1,0 +1,84 @@
+{
+    "name": "ugarit/pint",
+    "description": "An opinionated code formatter for PHP.",
+    "keywords": [
+        "php",
+        "format",
+        "formatter",
+        "lint",
+        "linter",
+        "dev"
+    ],
+    "homepage": "https://ugarit.com",
+    "type": "project",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/ugarit/pint/issues",
+        "source": "https://github.com/ugarit/pint"
+    },
+    "authors": [
+        {
+            "name": "Muath R Abu Ouda",
+            "email": "muathrabuouda@hotmail.com",
+            "role": "Vision Leader of Ugarit"
+        },
+        {
+            "name": "Nuno Maduro",
+            "email": "enunomaduro@gmail.com"
+        },
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com",
+            "role": "Original Creator & Primary Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3.0",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-tokenizer": "*",
+        "ext-xml": "*"
+    },
+    "require-dev": {
+        "composer/semver": "^3.4.4",
+        "friendsofphp/php-cs-fixer": "^3.95.25",
+        "heritage/view": "^1.00.00",
+        "larastan/larastan": "^3.11.0",
+        "ugarit-zero/framework": "^13.0.0",
+        "ugarit/prompts": "^1.00.00",
+        "mockery/mockery": "^1.6.15",
+        "nunomaduro/termwind": "^2.4.0",
+        "pestphp/pest": "^4.7.8",
+        "ugarit/agent-detector": "^1.00.00"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Scripts\\": "scripts/",
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "8.3.0"
+        },
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "bin": [
+        "builds/pint"
+    ],
+    "version": "1.00.00"
+}

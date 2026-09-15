@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "prettier": "^3.9.6",
+    "prettier-plugin-blade": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.8.1"
+  },
+  "version": "1.00.00"
+}

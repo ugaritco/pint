@@ -1,0 +1,6 @@
+{
+    "preset": "ugarit",
+    "rules": {
+        "Pint/ugarit_blade": true
+    }
+}
