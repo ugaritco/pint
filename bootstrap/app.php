@@ -5,8 +5,11 @@ use Heritage\Foundation\Application;
 use Heritage\Foundation\Exceptions\Handler;
 use Ugarit\Pint\Kernel;
 
+$basePath = dirname(__DIR__);
+@mkdir($basePath.'/bootstrap/cache', 0777, true);
+
 $app = new Application(
-    dirname(__DIR__)
+    $basePath
 );
 
 $app->singleton(

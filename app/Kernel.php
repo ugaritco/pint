@@ -9,6 +9,22 @@ use Symfony\Component\Console\Output\OutputInterface;
 class Kernel extends BaseKernel
 {
     /**
+     * The bootstrap classes for the application.
+     *
+     * @var array
+     */
+    protected $bootstrappers = [];
+
+    /**
+     * The Scribe commands provided by the application.
+     *
+     * @var array
+     */
+    protected $commands = [
+        Commands\DefaultCommand::class,
+    ];
+
+    /**
      * {@inheritdoc}
      */
     public function handle($input, $output = null)
