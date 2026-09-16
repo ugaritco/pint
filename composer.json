@@ -79,6 +79,5 @@
     "prefer-stable": true,
     "bin": [
         "pint"
-    ],
-    "version": "1.00.00"
+    ]
 }
