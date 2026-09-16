@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Providers;
+namespace Ugarit\Pint\Providers;
 
-use App\Actions\ElaborateSummary;
-use App\Actions\EnsurePrettierIsConfigured;
-use App\Actions\FixCode;
-use App\Commands\DefaultCommand;
+use Ugarit\Pint\Actions\ElaborateSummary;
+use Ugarit\Pint\Actions\EnsurePrettierIsConfigured;
+use Ugarit\Pint\Actions\FixCode;
+use Ugarit\Pint\Commands\DefaultCommand;
 use Heritage\Support\ServiceProvider;
 
 class CommandsServiceProvider extends ServiceProvider

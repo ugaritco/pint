@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repositories;
+namespace Ugarit\Pint\Repositories;
 
 use Symfony\Component\Console\Input\InputInterface;
 

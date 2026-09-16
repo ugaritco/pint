@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Providers;
+namespace Ugarit\Pint\Providers;
 
-use App\Contracts\PathsRepository;
-use App\Project;
-use App\Repositories\ConfigurationJsonRepository;
-use App\Repositories\GitPathsRepository;
+use Ugarit\Pint\Contracts\PathsRepository;
+use Ugarit\Pint\Project;
+use Ugarit\Pint\Repositories\ConfigurationJsonRepository;
+use Ugarit\Pint\Repositories\GitPathsRepository;
 use Heritage\Support\ServiceProvider;
 use Symfony\Component\Console\Input\InputInterface;
 

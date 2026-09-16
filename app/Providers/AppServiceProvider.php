@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Providers;
+namespace Ugarit\Pint\Providers;
 
-use App\Actions\EnsurePrettierIsConfigured;
-use App\BladeFormatter;
-use App\Project;
-use App\Repositories\ConfigurationJsonRepository;
-use App\Support\Prettier;
+use Ugarit\Pint\Actions\EnsurePrettierIsConfigured;
+use Ugarit\Pint\BladeFormatter;
+use Ugarit\Pint\Project;
+use Ugarit\Pint\Repositories\ConfigurationJsonRepository;
+use Ugarit\Pint\Support\Prettier;
 use Heritage\Support\ServiceProvider;
 use PhpCsFixer\Error\ErrorsManager;
 use Symfony\Component\EventDispatcher\EventDispatcher;

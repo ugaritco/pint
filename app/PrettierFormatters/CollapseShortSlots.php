@@ -1,8 +1,8 @@
 <?php
 
-namespace App\PrettierFormatters;
+namespace Ugarit\Pint\PrettierFormatters;
 
-use App\Contracts\PrettierPostFormatter;
+use Ugarit\Pint\Contracts\PrettierPostFormatter;
 
 class CollapseShortSlots implements PrettierPostFormatter
 {

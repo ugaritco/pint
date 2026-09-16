@@ -1,22 +1,22 @@
 <?php
 
-namespace App;
+namespace Ugarit\Pint;
 
-use App\Contracts\PrettierPostFormatter;
-use App\Contracts\PrettierPreFormatter;
-use App\Exceptions\UnrestorableContentException;
-use App\PrettierFormatters\AlpineMaskPatterns;
-use App\PrettierFormatters\CollapseShortSlots;
-use App\PrettierFormatters\CollapseSingleAttribute;
-use App\PrettierFormatters\DedentHuggedTerminator;
-use App\PrettierFormatters\EmbeddedBladeMasker;
-use App\PrettierFormatters\EscapedDirectiveSpacing;
-use App\PrettierFormatters\JoinDanglingCloseBracket;
-use App\PrettierFormatters\JoinDanglingOpenBracket;
-use App\PrettierFormatters\NotOperatorSpacing;
-use App\PrettierFormatters\PhpBlockFormatting;
-use App\PrettierFormatters\StripSensitiveLeadingBlankLines;
-use App\Support\Prettier;
+use Ugarit\Pint\Contracts\PrettierPostFormatter;
+use Ugarit\Pint\Contracts\PrettierPreFormatter;
+use Ugarit\Pint\Exceptions\UnrestorableContentException;
+use Ugarit\Pint\PrettierFormatters\AlpineMaskPatterns;
+use Ugarit\Pint\PrettierFormatters\CollapseShortSlots;
+use Ugarit\Pint\PrettierFormatters\CollapseSingleAttribute;
+use Ugarit\Pint\PrettierFormatters\DedentHuggedTerminator;
+use Ugarit\Pint\PrettierFormatters\EmbeddedBladeMasker;
+use Ugarit\Pint\PrettierFormatters\EscapedDirectiveSpacing;
+use Ugarit\Pint\PrettierFormatters\JoinDanglingCloseBracket;
+use Ugarit\Pint\PrettierFormatters\JoinDanglingOpenBracket;
+use Ugarit\Pint\PrettierFormatters\NotOperatorSpacing;
+use Ugarit\Pint\PrettierFormatters\PhpBlockFormatting;
+use Ugarit\Pint\PrettierFormatters\StripSensitiveLeadingBlankLines;
+use Ugarit\Pint\Support\Prettier;
 
 class BladeFormatter
 {

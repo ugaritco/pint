@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ValueObjects;
+namespace Ugarit\Pint\ValueObjects;
 
 use Heritage\Support\Str;
 use NunoMaduro\Collision\Highlighter;

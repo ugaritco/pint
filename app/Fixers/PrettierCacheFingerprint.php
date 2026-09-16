@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Fixers;
+namespace Ugarit\Pint\Fixers;
 
 use PhpCsFixer\AbstractFixer;
 use PhpCsFixer\Fixer\ConfigurableFixerInterface;

@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Repositories;
+namespace Ugarit\Pint\Repositories;
 
-use App\Contracts\PathsRepository;
-use App\Factories\ConfigurationFactory;
+use Ugarit\Pint\Contracts\PathsRepository;
+use Ugarit\Pint\Factories\ConfigurationFactory;
 use Heritage\Support\Collection;
 use Heritage\Support\Str;
 use Symfony\Component\Process\Process;

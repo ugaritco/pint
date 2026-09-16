@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Exceptions;
+namespace Ugarit\Pint\Exceptions;
 
 class HandleExceptions extends \Heritage\Foundation\Bootstrap\HandleExceptions
 {

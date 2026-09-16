@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Commands;
+namespace Ugarit\Pint\Commands;
 
-use App\Actions\ElaborateSummary;
-use App\Actions\EnsurePrettierIsConfigured;
-use App\Actions\FixCode;
-use App\Factories\ConfigurationFactory;
-use UgaritZero\Framework\Commands\Command;
+use Ugarit\Pint\Actions\ElaborateSummary;
+use Ugarit\Pint\Actions\EnsurePrettierIsConfigured;
+use Ugarit\Pint\Actions\FixCode;
+use Ugarit\Pint\Factories\ConfigurationFactory;
+use Heritage\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 use Throwable;

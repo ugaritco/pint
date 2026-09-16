@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Output\Concerns;
+namespace Ugarit\Pint\Output\Concerns;
 
 use PhpCsFixer\Error\Error;
 use PhpCsFixer\Runner\Event\FileProcessed;

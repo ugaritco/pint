@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Providers;
+namespace Ugarit\Pint\Providers;
 
-use App\Actions\ElaborateSummary;
-use App\Actions\FixCode;
-use App\Output\ProgressOutput;
-use App\Output\SummaryOutput;
-use App\Repositories\ConfigurationJsonRepository;
+use Ugarit\Pint\Actions\ElaborateSummary;
+use Ugarit\Pint\Actions\FixCode;
+use Ugarit\Pint\Output\ProgressOutput;
+use Ugarit\Pint\Output\SummaryOutput;
+use Ugarit\Pint\Repositories\ConfigurationJsonRepository;
 use Heritage\Support\ServiceProvider;
 use PhpCsFixer\Error\ErrorsManager;
 use Symfony\Component\Console\Input\InputInterface;

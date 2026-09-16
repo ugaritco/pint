@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Fixers\UgaritBlade;
+namespace Ugarit\Pint\Fixers\UgaritBlade;
 
 use PhpCsFixer\Fixer\ConfigurableFixerInterface;
 use PhpCsFixer\Fixer\FixerInterface;

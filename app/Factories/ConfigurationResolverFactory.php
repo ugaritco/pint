@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Factories;
+namespace Ugarit\Pint\Factories;
 
-use App\Project;
-use App\Repositories\ConfigurationJsonRepository;
-use App\Support\Prettier;
+use Ugarit\Pint\Project;
+use Ugarit\Pint\Repositories\ConfigurationJsonRepository;
+use Ugarit\Pint\Support\Prettier;
 use ArrayIterator;
 use Ugarit\AgentDetector\AgentDetector;
 use PhpCsFixer\Config;

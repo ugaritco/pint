@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Fixers\UgaritBlade\Ignorables;
+namespace Ugarit\Pint\Fixers\UgaritBlade\Ignorables;
 
 class Envoy
 {

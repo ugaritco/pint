@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Actions;
+namespace Ugarit\Pint\Actions;
 
-use App\Contracts\HasPrettierDependencies;
-use App\Enums\NodePackageManager;
-use App\Factories\ConfigurationFactory;
-use App\Repositories\ConfigurationJsonRepository;
-use App\Support\Prettier;
+use Ugarit\Pint\Contracts\HasPrettierDependencies;
+use Ugarit\Pint\Enums\NodePackageManager;
+use Ugarit\Pint\Factories\ConfigurationFactory;
+use Ugarit\Pint\Repositories\ConfigurationJsonRepository;
+use Ugarit\Pint\Support\Prettier;
 use Composer\Semver\Semver;
 use Heritage\Support\Collection;
 use Heritage\Support\Facades\File;

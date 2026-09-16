@@ -37,25 +37,21 @@
         "ext-json": "*",
         "ext-mbstring": "*",
         "ext-tokenizer": "*",
-        "ext-xml": "*"
+        "ext-xml": "*",
+        "friendsofphp/php-cs-fixer": "^3.95.25",
+        "nunomaduro/termwind": "^2.4.0",
+        "ugarit/prompts": "^1.00.00"
     },
     "require-dev": {
         "composer/semver": "^3.4.4",
-        "friendsofphp/php-cs-fixer": "^3.95.25",
         "heritage/view": "^1.00.00",
-        "larastan/larastan": "^3.11.0",
-        "ugarit-zero/framework": "^13.0.0",
-        "ugarit/prompts": "^1.00.00",
         "mockery/mockery": "^1.6.15",
-        "nunomaduro/termwind": "^2.4.0",
         "pestphp/pest": "^4.7.8",
         "ugarit/agent-detector": "^1.00.00"
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Ugarit\\Pint\\": "app/"
         }
     },
     "autoload-dev": {

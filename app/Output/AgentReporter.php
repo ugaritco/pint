@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Output;
+namespace Ugarit\Pint\Output;
 
-use App\Project;
+use Ugarit\Pint\Project;
 use PhpCsFixer\Console\Report\FixReport\ReporterInterface;
 use PhpCsFixer\Console\Report\FixReport\ReportSummary;
 use PhpCsFixer\Error\Error;

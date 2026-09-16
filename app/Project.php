@@ -1,8 +1,8 @@
 <?php
 
-namespace App;
+namespace Ugarit\Pint;
 
-use App\Contracts\PathsRepository;
+use Ugarit\Pint\Contracts\PathsRepository;
 use Symfony\Component\Console\Input\InputInterface;
 
 class Project

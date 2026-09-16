@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Output;
+namespace Ugarit\Pint\Output;
 
-use App\Output\Concerns\InteractsWithSymbols;
+use Ugarit\Pint\Output\Concerns\InteractsWithSymbols;
 use PhpCsFixer\Runner\Event\FileProcessed;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

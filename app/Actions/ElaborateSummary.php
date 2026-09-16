@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Actions;
+namespace Ugarit\Pint\Actions;
 
-use App\Factories\ConfigurationResolverFactory;
-use App\Output\AgentReporter;
-use App\Output\SummaryOutput;
-use App\Project;
+use Ugarit\Pint\Factories\ConfigurationResolverFactory;
+use Ugarit\Pint\Output\AgentReporter;
+use Ugarit\Pint\Output\SummaryOutput;
+use Ugarit\Pint\Project;
 use Heritage\Console\Command;
 use PhpCsFixer\Console\Report\FixReport;
 use PhpCsFixer\Console\Report\FixReport\ReportSummary;

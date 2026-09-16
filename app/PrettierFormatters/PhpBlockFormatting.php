@@ -1,9 +1,9 @@
 <?php
 
-namespace App\PrettierFormatters;
+namespace Ugarit\Pint\PrettierFormatters;
 
-use App\Contracts\PrettierPostFormatter;
-use App\Support\PhpFragmentFormatter;
+use Ugarit\Pint\Contracts\PrettierPostFormatter;
+use Ugarit\Pint\Support\PhpFragmentFormatter;
 use Heritage\Support\Str;
 use PhpCsFixer\Tokenizer\Tokens;
 

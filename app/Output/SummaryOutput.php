@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Output;
+namespace Ugarit\Pint\Output;
 
-use App\Output\Concerns\InteractsWithSymbols;
-use App\Project;
-use App\Repositories\ConfigurationJsonRepository;
-use App\ValueObjects\Issue;
+use Ugarit\Pint\Output\Concerns\InteractsWithSymbols;
+use Ugarit\Pint\Project;
+use Ugarit\Pint\Repositories\ConfigurationJsonRepository;
+use Ugarit\Pint\ValueObjects\Issue;
 use Heritage\Support\Collection;
 use PhpCsFixer\Console\Report\FixReport\ReportSummary;
 use PhpCsFixer\Error\ErrorsManager;

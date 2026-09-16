@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Support;
+namespace Ugarit\Pint\Support;
 
-use App\Repositories\ConfigurationJsonRepository;
+use Ugarit\Pint\Repositories\ConfigurationJsonRepository;
 use PhpCsFixer\Fixer\FixerInterface;
 use PhpCsFixer\FixerFactory;
 use PhpCsFixer\RuleSet\RuleSet;

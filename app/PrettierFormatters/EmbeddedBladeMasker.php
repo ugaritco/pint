@@ -1,10 +1,10 @@
 <?php
 
-namespace App\PrettierFormatters;
+namespace Ugarit\Pint\PrettierFormatters;
 
-use App\Contracts\PrettierPostFormatter;
-use App\Contracts\PrettierPreFormatter;
-use App\Exceptions\UnrestorableContentException;
+use Ugarit\Pint\Contracts\PrettierPostFormatter;
+use Ugarit\Pint\Contracts\PrettierPreFormatter;
+use Ugarit\Pint\Exceptions\UnrestorableContentException;
 
 class EmbeddedBladeMasker implements PrettierPostFormatter, PrettierPreFormatter
 {

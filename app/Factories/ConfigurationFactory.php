@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Factories;
+namespace Ugarit\Pint\Factories;
 
-use App\Actions\EnsurePrettierIsConfigured;
-use App\BladeFormatter;
-use App\Fixers\UgaritBlade\Fixer;
-use App\Fixers\PrettierCacheFingerprint;
-use App\Repositories\ConfigurationJsonRepository;
+use Ugarit\Pint\Actions\EnsurePrettierIsConfigured;
+use Ugarit\Pint\BladeFormatter;
+use Ugarit\Pint\Fixers\UgaritBlade\Fixer;
+use Ugarit\Pint\Fixers\PrettierCacheFingerprint;
+use Ugarit\Pint\Repositories\ConfigurationJsonRepository;
 use PhpCsFixer\Config;
 use PhpCsFixer\ConfigInterface;
 use PhpCsFixer\Finder;

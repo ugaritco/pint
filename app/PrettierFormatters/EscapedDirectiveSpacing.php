@@ -1,9 +1,9 @@
 <?php
 
-namespace App\PrettierFormatters;
+namespace Ugarit\Pint\PrettierFormatters;
 
-use App\Contracts\PrettierPostFormatter;
-use App\Contracts\PrettierPreFormatter;
+use Ugarit\Pint\Contracts\PrettierPostFormatter;
+use Ugarit\Pint\Contracts\PrettierPreFormatter;
 
 class EscapedDirectiveSpacing implements PrettierPostFormatter, PrettierPreFormatter
 {

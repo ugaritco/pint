@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Enums;
+namespace Ugarit\Pint\Enums;
 
 use Heritage\Support\Facades\File;
 

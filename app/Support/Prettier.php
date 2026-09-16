@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Support;
+namespace Ugarit\Pint\Support;
 
-use App\Enums\NodePackageManager;
-use App\Exceptions\PrettierException;
+use Ugarit\Pint\Enums\NodePackageManager;
+use Ugarit\Pint\Exceptions\PrettierException;
 use Heritage\Support\Facades\File;
 use Heritage\Support\Str;
 use Symfony\Component\Process\InputStream;

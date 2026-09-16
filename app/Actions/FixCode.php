@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Actions;
+namespace Ugarit\Pint\Actions;
 
-use App\Factories\ConfigurationResolverFactory;
-use App\Output\ProgressOutput;
-use UgaritZero\Framework\Exceptions\ConsoleException;
+use Ugarit\Pint\Factories\ConfigurationResolverFactory;
+use Ugarit\Pint\Output\ProgressOutput;
+use Heritage\Console\Exception\CommandNotFoundException;
 use PhpCsFixer\Console\ConfigurationResolver;
 use PhpCsFixer\Differ\NullDiffer;
 use PhpCsFixer\Error\ErrorsManager;

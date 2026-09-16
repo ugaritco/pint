@@ -1,8 +1,8 @@
 <?php
 
-namespace App;
+namespace Ugarit\Pint;
 
-use UgaritZero\Framework\Kernel as BaseKernel;
+use Heritage\Foundation\Console\Kernel as BaseKernel;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 

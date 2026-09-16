@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Fixers\UgaritBlade;
+namespace Ugarit\Pint\Fixers\UgaritBlade;
 
-use App\BladeFormatter;
-use App\Contracts\HasPrettierDependencies;
-use App\Exceptions\PrettierException;
+use Ugarit\Pint\BladeFormatter;
+use Ugarit\Pint\Contracts\HasPrettierDependencies;
+use Ugarit\Pint\Exceptions\PrettierException;
 use PhpCsFixer\AbstractFixer;
 use PhpCsFixer\FixerDefinition\FixerDefinition;
 use PhpCsFixer\FixerDefinition\FixerDefinitionInterface;
