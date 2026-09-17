@@ -39,12 +39,14 @@
         "ext-tokenizer": "*",
         "ext-xml": "*",
         "friendsofphp/php-cs-fixer": "^3.95.25",
+        "heritage/events": "^1.00.00",
+        "heritage/filesystem": "^1.00.00",
+        "heritage/view": "^1.00.00",
         "nunomaduro/termwind": "^2.4.0",
         "ugarit/prompts": "^1.00.00"
     },
     "require-dev": {
         "composer/semver": "^3.4.4",
-        "heritage/view": "^1.00.00",
         "mockery/mockery": "^1.6.15",
         "pestphp/pest": "^4.7.8",
         "ugarit/agent-detector": "^1.00.00"

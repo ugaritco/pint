@@ -64,6 +64,8 @@ class SummaryOutput
 
         $issues = $this->getIssues(Project::path(), $summary);
 
+        $this->output->writeln('');
+
         render(
             view('summary', [
                 'totalFiles' => $totalFiles,
