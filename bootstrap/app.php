@@ -27,9 +27,19 @@ $app->instance('config', new Heritage\Config\Repository([
         'name' => 'Pint',
         'timezone' => 'UTC',
     ],
+    'view' => [
+        'paths' => [
+            $basePath.'/resources/views',
+        ],
+        'compiled' => $basePath.'/bootstrap/cache',
+    ],
 ]));
 
 $app->instance('env', 'production');
+
+$app->register(Heritage\Events\EventServiceProvider::class);
+$app->register(Heritage\Filesystem\FilesystemServiceProvider::class);
+$app->register(Heritage\View\ViewServiceProvider::class);
 
 $app->register(Ugarit\Pint\Providers\AppServiceProvider::class);
 $app->register(Ugarit\Pint\Providers\ActionsServiceProvider::class);
