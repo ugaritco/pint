@@ -29,6 +29,11 @@ $app->instance('config', new Heritage\Config\Repository([
     ],
 ]));
 
+$app->instance('env', 'production');
+
 $app->register(Ugarit\Pint\Providers\AppServiceProvider::class);
+$app->register(Ugarit\Pint\Providers\ActionsServiceProvider::class);
+$app->register(Ugarit\Pint\Providers\CommandsServiceProvider::class);
+$app->register(Ugarit\Pint\Providers\RepositoriesServiceProvider::class);
 
 return $app;

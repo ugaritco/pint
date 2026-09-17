@@ -1,6 +1,6 @@
 <?php
 
-use App\Factories\ConfigurationFactory;
+use Ugarit\Pint\Factories\ConfigurationFactory;
 
 return ConfigurationFactory::preset([
     '@Symfony' => true,

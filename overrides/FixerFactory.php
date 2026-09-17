@@ -14,12 +14,12 @@ declare(strict_types=1);
 
 namespace PhpCsFixer;
 
-use App\BladeFormatter;
-use App\Fixers\UgaritBlade\Fixer as UgaritBladeFixer;
-use App\Fixers\UgaritBlade\NoUnusedImportsFixer as BladeAwareNoUnusedImportsFixer;
-use App\Fixers\UgaritBlade\SkipBladeFilesFixer;
-use App\Fixers\PrettierCacheFingerprint;
-use App\Fixers\TypeAnnotationsOnlyFixer;
+use Ugarit\Pint\BladeFormatter;
+use Ugarit\Pint\Fixers\UgaritBlade\Fixer as UgaritBladeFixer;
+use Ugarit\Pint\Fixers\UgaritBlade\NoUnusedImportsFixer as BladeAwareNoUnusedImportsFixer;
+use Ugarit\Pint\Fixers\UgaritBlade\SkipBladeFilesFixer;
+use Ugarit\Pint\Fixers\PrettierCacheFingerprint;
+use Ugarit\Pint\Fixers\TypeAnnotationsOnlyFixer;
 use PhpCsFixer\ConfigurationException\InvalidFixerConfigurationException;
 use PhpCsFixer\Fixer\ConfigurableFixerInterface;
 use PhpCsFixer\Fixer\FixerInterface;
@@ -103,7 +103,7 @@ final class FixerFactory
             $builtInFixers = [];
 
             $finder = SymfonyFinder::create()->files()
-                ->in(dirname(__DIR__).'/vendor/friendsofphp/php-cs-fixer/src/Fixer')
+                ->in(dirname((new \ReflectionClass(\PhpCsFixer\Fixer\FixerInterface::class))->getFileName()))
                 ->exclude(['Internal'])
                 ->name('*Fixer.php')
                 ->depth(1);

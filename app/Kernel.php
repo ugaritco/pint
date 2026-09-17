@@ -35,6 +35,16 @@ class Kernel extends BaseKernel
         return parent::handle($input, $output);
     }
 
+    protected function getScribe()
+    {
+        if (is_null($this->scribe)) {
+            parent::getScribe();
+            $this->scribe->setDefaultCommand('default', true);
+        }
+
+        return $this->scribe;
+    }
+
     /**
      * Terminate the application.
      *

@@ -27,7 +27,11 @@ if (($argv[1] ?? null) === 'worker') {
 
     $app->make(Heritage\Contracts\Console\Kernel::class)->bootstrap();
 
-    return include __DIR__.'/vendor/bin/php-cs-fixer';
+    $csFixerBin = file_exists(__DIR__.'/vendor/bin/php-cs-fixer')
+        ? __DIR__.'/vendor/bin/php-cs-fixer'
+        : __DIR__.'/../../bin/php-cs-fixer';
+
+    return include $csFixerBin;
 }
 
 $app = require_once __DIR__.'/bootstrap/app.php';
