@@ -22,6 +22,13 @@ $app->singleton(
     Handler::class
 );
 
+$app->instance('config', new Heritage\Config\Repository([
+    'app' => [
+        'name' => 'Pint',
+        'timezone' => 'UTC',
+    ],
+]));
+
 $app->register(Ugarit\Pint\Providers\AppServiceProvider::class);
 
 return $app;
